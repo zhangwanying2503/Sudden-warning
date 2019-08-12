@@ -1,0 +1,47 @@
+.topcon{
+    width: 18.5%;
+    height: 120px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.numcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+.numtit{
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.todaynum{
+    color: #8877a9 ;
+}
+.accountbalance{
+    font-size: 30px;
+    font-weight: 400;
+    color: #8877a9;
+}
+.topcon>h6{
+    margin:0 22px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #AAB5BC;
+    font-weight: 600;
+    border-bottom:3px solid #ddd;
+}
+.topcon>p{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    box-sizing: border-box;
+    font-size: 11px;
+    color: #AAB5BC;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+.dialogbox{
+    position: absolute;
+    left:195px;
+    width: 195px;
+    background: #2e3d4e;
+    z-index: 999;
+}
+.dialogbox ul li{
+    height: 40px;
+    font-size: 14px;
+}

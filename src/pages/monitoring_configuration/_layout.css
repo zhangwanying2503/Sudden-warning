@@ -1,0 +1,82 @@
+.monitoringContainer{
+    width:100%; 
+    box-sizing:border-box;
+    padding:20px; 
+}
+.searchContainer{
+    width:100%; 
+    background:white;
+}
+.searchTopContent{
+    width:100%; 
+    box-sizing:border-box;
+    padding:0 20px;
+    display:flex;
+    margin:10px 0;
+}
+.searchTopContent>input{
+    flex:1; 
+    height:52px;
+    line-height:52px;
+    outline:none;
+    background:rgba(230,233,236,.5);
+    box-sizing:border-box;
+    padding-left:15px;
+    color:#aaa;
+    border:none;
+}
+.searchTopContent>button{
+    width:140px;
+    height:52px;
+    line-height:52px;
+    font-size:14px;
+    text-align:center;
+    font-weight:bold;
+    outline:none;
+    border:0; 
+    margin-right:15px;
+}
+.searchBtn{
+    background:#3faba4;
+    color:white;
+}
+.searchBtn:hover{
+    background:#318680;
+}
+.watchManageBtn{
+    background:rgba(233,237,239,.8);
+    color:#8a898e;
+}
+.watchManageBtn:hover{
+    background:rgba(203,213,218,.8);
+}
+
+.messageContainer{
+    width:100%; 
+    background:white;
+    box-sizing:border-box;
+    padding:15px;
+    margin-top:30px;
+}
+.navContainer{
+    width:100%; 
+    height:40px;
+    line-height:40px;
+    display:flex;
+    border-bottom:solid 1px #ddd;
+}
+.navContainer>span{
+    height:100%;
+    padding:0 15px;
+    font-size:14px;
+}
+.navContainer span:hover{
+    border-bottom:solid 3px #c0edf1;
+}
+.spanactive{
+    border-bottom:solid 3px #44b6b7;
+}
+.contentContainer{
+    width:100%;
+    height:auto;
+}

@@ -1,0 +1,54 @@
+.top_bar{
+    width:100%; 
+    height:60px;
+    line-height:60px;
+    background:white;
+    margin:0 auto;
+    display:flex;
+}
+.top_bar_left{
+    list-style:none;
+    display:flex;
+    align-items: left;
+    flex:1;
+}
+.top_bar_left button{
+    border:1px solid #32c5d2;
+    color:#32c5d2;
+    border-radius:20px;
+    margin-right:16px;
+    width:90px;
+    height:30px;
+    line-height:30px;
+    padding-left:0; 
+    padding-right:0; 
+    font-size:14px;
+}
+.top_bar_left button:hover{
+    background:#32c5d2;
+    color:#fff;
+}
+.top_bar_right button{
+    padding:0 20px;
+    height:60px;
+    line-height:60px;
+    color:#fff;
+    border:0;
+    border-radius:0;
+    font-size:16px;
+    outline:none;
+}
+.top_bar_right .moreButton{
+    background:rgba(191,202,209,.8);
+    color:#fff;
+}
+.top_bar_right .moreButton:hover{
+    background:rgba(161,177,188,.8);
+    color:#fff;
+}
+.top_bar_right .watchManageButton{
+    background:rgba(101,155,224,.8);
+}
+.top_bar_right .watchManageButton:hover{
+    background:rgba(58,128,215,.8);
+}

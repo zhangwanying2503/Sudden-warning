@@ -1,0 +1,25 @@
+.correlationWrap{
+    width:100%; 
+    box-sizing:border-box;
+    padding:0 20px;
+}
+.correlationWrap h2{
+    box-sizing:border-box;
+    margin:20px 0;
+    font-size:22px;
+    font-weight:normal;
+}
+.contentWrap{
+    width:100%; 
+    margin-top:30px;
+    background:white;
+    padding-top:30px;
+}
+.searchBox{
+    width:100%; 
+    display:flex;
+    margin-bottom:30px;
+}
+.searchBox>input{
+    flex:1;
+}

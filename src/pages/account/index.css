@@ -1,0 +1,43 @@
+.accountWrap{
+    width:100%;
+    box-sizing:border-box;
+    padding:20px;
+}
+.accountWrap>ul{
+    width:100%; 
+    height:40px;
+    margin:30px 0 30px 20px;
+    line-height:40px;
+    display:flex;
+    box-sizing:border-box;
+    border-bottom:solid 1px #bbb;
+    list-style:none;
+}
+.accountWrap>ul li{
+    padding:0 15px;
+    color:#337ab7;
+}
+.accountWrap>ul li:hover{
+    color:black;
+    background:#ddd;
+}
+.liactive{
+    background:#fff;
+    border:solid 1px #bbb;
+    height:41px;
+    border-bottom:0;
+}
+.titleContainer{
+    width:100%; 
+    height:37px;
+    line-height:37px;
+    background:#ccc;
+    text-align:center;
+    font-weight:bolder;
+}
+.contentContainer,.contentWrapper{
+    display:none;
+}
+.showView{
+    display:block;
+}

@@ -1,0 +1,29 @@
+.accountWrap{
+    width:100%; 
+    margin-top:30px;
+}
+.titleBox{
+    background:#3598dc;
+    padding:10px 20px;
+    color:white;
+}
+.contentBox{
+    width:100%; 
+    height:100px;
+    background:#eee;
+}
+.colTitle{
+    line-height:100px;
+    font-size:24px;
+    text-align:center;
+}
+.colContent>p{
+    margin:20px auto;
+}
+.colBtn{
+    padding-top:10px;
+}
+.colBtn button{
+    border-radius:0;
+    margin-right:3px;
+}
